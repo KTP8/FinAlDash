@@ -11,6 +11,14 @@ body {
     color: black;
 }
 
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
 /* Top Bar Styles */
 .top-bar {
     background-color: #182841;  /* Blue background */
