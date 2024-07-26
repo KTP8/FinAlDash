@@ -104,7 +104,7 @@ footer {
 /* Responsive Styles */
 @media (max-width: 600px) {
     .top-bar {
-        height: 50px; /* Smaller height for mobile */
+        height: 60px; /* Smaller height for mobile */
     }
 
     .logo {
