@@ -20,7 +20,7 @@ header {
     align-items: center;
     position: relative;
     width: 100%;
-    height: 250px; /* Set a fixed height for the header */
+    height: 250px; /* Maintain fixed height for consistent appearance */
 }
 
 .logo-container {
@@ -31,16 +31,19 @@ header {
 }
 
 .logo {
-    width: 100%; /* Adjust according to your preference */
+    width: 100%; /* Ensures the logo fits within the container */
     height: auto;
 }
 
 .site-title {
-    font-size: 50%;
+    position: absolute;
+    bottom: 10px; /* Place title at the bottom of the header image */
+    width: 70%; /* Title covers 70% of the screen width */
+    font-size: 2em; /* Increased size for visibility */
     color: white;
-    margin-top: 20px;
+    text-align: center;
     z-index: 2;
-    font-family: Helvetica, sans-serif, arial;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Enhance readability */
 }
 
 /* Navigation Styles */
@@ -48,7 +51,7 @@ header {
     text-align: center;
     width: 100%;
     position: absolute;
-    bottom: 10px;
+    top: 50px; /* Adjusted for visual balance */
     z-index: 2;
 }
 
@@ -79,7 +82,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; /* Cover the header */
+    height: 100%; /* Cover the full header height */
     background-size: cover;
     background-position: center;
 }
@@ -99,7 +102,6 @@ footer {
     color: white;
     position: relative;
     width: 100%;
-    bottom: 0;
 }
 
 /* Section Styles */
@@ -112,27 +114,27 @@ section {
 /* Responsive Styles */
 @media (max-width: 600px) {
     header {
-        height: 180px; /* Shorter header for mobile */
+        height: 180px; /* Adjust header height for smaller screens */
     }
 
     .navbar ul li {
-        display: block; /* Stack nav items vertically on mobile */
+        display: block; /* Stack navigation items vertically */
         margin-bottom: 5px;
     }
 
     .navbar {
-        bottom: 5px; /* Adjust nav position at the bottom */
+        top: 30px; /* Adjusted top position */
     }
 
     .logo {
-        width: 40px; /* Smaller logo for mobile */
+        width: 40px; /* Smaller logo for mobile screens */
     }
 
     .site-title {
-        font-size: 20px; /* Smaller title font size for mobile */
+        font-size: 1.5em; /* Adjust title size for mobile */
     }
 
     main {
-        padding: 15px; /* Less padding for mobile */
+        padding: 15px; /* Smaller padding on mobile */
     }
 }
