@@ -1,10 +1,20 @@
-/* General Styles */
 body {
     font-family: Helvetica, sans-serif, Arial;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: black;
+}
+
+.navigation .list {
+    padding-left: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+h1 {
+    font-size: larger;
 }
 
 /* Header Styles */
