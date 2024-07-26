@@ -73,14 +73,14 @@ body {
 }
 
 .header-title {
-    font-size: 2em; /* Increased size for visibility */
+    font-size: 5vw; /* Starts with a viewport-based font size */
+    width: 70%; /* Ensures the text width is 70% of its container */
+    position: absolute;
+    bottom: 10%; /* Adjust based on your visual preference */
+    left: 15%; /* Center the text block */
+    text-align: center;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow for text contrast */
-    width: 70%; /* Title covers 70% of the screen width */
-    position: absolute; /* Ensures positioning within the header image */
-    bottom: 20px; /* Position from the bottom of the header image */
-    left: 15%; /* Centering the title based on its width */
-    text-align: center; /* Ensures the text is centered within the block */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Enhance readability against background */
 }
 
 /* Main Content Styles */
