@@ -27,9 +27,9 @@ body {
 }
 
 .logo {
-    max-height: 90%;  /* Adjust this percentage to ensure a good fit */
-    width: auto;  /* Maintain aspect ratio */
-    margin: 5px 0; /* Adds a small margin for vertical centering */
+    max-height: 45px;  /* Adjusts to fit within the 50px bar with some padding */
+    width: auto;  /* Maintains aspect ratio */
+    margin: auto 0; /* Vertically centers the logo within the top-bar */
 }
 
 /* Navigation Styles */
