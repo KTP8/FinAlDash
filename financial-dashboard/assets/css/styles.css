@@ -76,7 +76,11 @@ body {
     font-size: 2em; /* Increased size for visibility */
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow for text contrast */
-    padding: 20px;
+    width: 70%; /* Title covers 70% of the screen width */
+    position: absolute; /* Ensures positioning within the header image */
+    bottom: 20px; /* Position from the bottom of the header image */
+    left: 15%; /* Centering the title based on its width */
+    text-align: center; /* Ensures the text is centered within the block */
 }
 
 /* Main Content Styles */
