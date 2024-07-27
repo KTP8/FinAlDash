@@ -33,7 +33,7 @@ This project is a financial dashboard website that provides key financial metric
 ## Setup Instructions 
 Clone the repository to local machine:
 '''bash
-git clone https://github.com/ktp8/financial-dashboard.git
+git clone https://github.com/ktp8/FinAlDash/financial-dashboard.git
 
 Navigate to project directory:
 cd financil-dashboard 
