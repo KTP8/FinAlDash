@@ -156,7 +156,7 @@ How to evenly distribute spaces between images:
 - From the source section drop-down menu, select the Master Branch
 - Once the Master Branch has been selected, the page will automatically refresh with a detailed ribbon display to indicate deployment was successful
 
-  THE LIVE LINK CAN BE FOUND HERE: https://8000-ktp8-finaldash-2iz1xkckre5.ws.codeinstitute-ide.net/index.html 
+  THE LIVE LINK CAN BE FOUND HERE: https://ktp8.github.io/FinAlDash/
 
 
 
