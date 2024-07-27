@@ -114,22 +114,23 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
       align-items: center;  /* Aligns images vertically in the center */
       }
 
-    .inline-image {
-     width: 23%;  /* Adjusts width to fit 4 images within the container */
-     height: auto;  /* Maintains aspect ratio */
-     }
+   
+      .inline-image {
+      width: 23%;  /* Adjusts width to fit 4 images within the container */
+      height: auto;  /* Maintains aspect ratio */
+      }
 
      /*Top Bar Styles */
   
-     .top-bar {
-     background-color: #182841;  /* Blue background */
-     width: 100%;
-     height: 50px;  /* Adjust height as needed */
-     display: flex;
-     align-items: center;  /* Center the logo and navigation vertically */
-     justify-content: space-between; /* Space between logo and navigation */
-     padding: 0 10px;  /* Padding for some spacing from the edges */
-     }
+      .top-bar {
+      background-color: #182841;  /* Blue background */
+      width: 100%;
+      height: 50px;  /* Adjust height as needed */
+      display: flex;
+      align-items: center;  /* Center the logo and navigation vertically */
+      justify-content: space-between; /* Space between logo and navigation */
+      padding: 0 10px;  /* Padding for some spacing from the edges */
+      }
 
 
 ## Code Example 
