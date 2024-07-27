@@ -108,7 +108,7 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
 - There was also an issue with the header not loading and the logo design in the top left corner overhanging on the tool bar.
 - I have fixed these bugs by altering the format in GitHub to fix the jekyll error & by styling the header, logo, and top-bar as follows:
   
-  '.images-container {'
+  ≠.images-container {≠
    ' display: flex;'
     'justify-content: space-between;'  /* Distributes space evenly between the images */
     'align-items: center;'  /* Aligns images vertically in the center */
