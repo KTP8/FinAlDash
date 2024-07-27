@@ -1,5 +1,7 @@
 # Financial Dashboard
 
+![Screenshot 2024-07-27 at 09 43 23](https://github.com/user-attachments/assets/1314ae0a-7678-4047-933d-d50d8d154020)
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Technologies Used](#technologies-used)
@@ -29,12 +31,17 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
 
 ### Exisiting Features 
 - **Navigation Bar**
+  
   ![Screenshot 2024-07-27 at 10 42 16](https://github.com/user-attachments/assets/1947b64d-234e-4aae-abdb-b80d64c30b22)
+  
   - Featured on all three pages, the navigation bar has links to the Home page, Market page, and Security page and is identical in each for easy navigation.
   - The navigation bar is a fully resposnive design and changes size but remains in the top right corner depending on screen size.
   - The navigation bar icons change colour when hovered over to improve user accessibility.
  
 - **Website Logo**
+
+  ![Logo](https://github.com/user-attachments/assets/292b6a15-0b24-4439-8c7d-8c3400075783)
+
   - The Website Logo is featured on all pages in the top banner and serves the purpose of allowing users to see the site name on all three pages.
  
 - **Footer**
