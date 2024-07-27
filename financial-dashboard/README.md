@@ -31,12 +31,13 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
 
 ### Exisiting Features 
 - **Navigation Bar**
-  
-  ![Screenshot 2024-07-27 at 10 42 16](https://github.com/user-attachments/assets/1947b64d-234e-4aae-abdb-b80d64c30b22)
-  
   - Featured on all three pages, the navigation bar has links to the Home page, Market page, and Security page and is identical in each for easy navigation.
   - The navigation bar is a fully resposnive design and changes size but remains in the top right corner depending on screen size.
   - The navigation bar icons change colour when hovered over to improve user accessibility.
+ 
+  
+  ![Screenshot 2024-07-27 at 10 42 16](https://github.com/user-attachments/assets/1947b64d-234e-4aae-abdb-b80d64c30b22)
+  
  
 - **Website Logo**
 
@@ -55,21 +56,19 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
   - The landing page introduces the user to the website with an eye-catching design whilst using colours which make it clear that the purpose of the site is informative.
  
 - **Market**
-
+  - The Market page introduces the user to indices and metrics which are important to become familiar with when investing.
+  - The Market page also includes an embedded link to Yahoo Finance where users can monitor stock performance further.
 ![Screenshot 2024-07-27 at 09 33 28](https://github.com/user-attachments/assets/7950717c-6d40-4679-8f5b-d1d16377204c)
 ![Screenshot 2024-07-27 at 09 33 42](https://github.com/user-attachments/assets/3e97c609-8823-4b9e-bea6-e02d481ee8d5)
 
-  - The Market page introduces the user to indices and metrics which are important to become familiar with when investing.
-  - The Market page also includes an embedded link to Yahoo Finance where users can monitor stock performance further.
  
 - **Security**
-
-![Screenshot 2024-07-27 at 10 48 05](https://github.com/user-attachments/assets/4e24205b-c147-40a2-a79b-d6c3f27dbdb1)
-![Screenshot 2024-07-27 at 10 48 19](https://github.com/user-attachments/assets/bec636b7-4970-4841-bac2-124126958d5d)
-
   - The Security page enlightens the user to the security cybersecurity risks that, althugh are a threat to all computer users, are very commonly seen when investing and traversing websites that either request payments or give financial advice.
   - The Security page contains an embedded youtube video outlining an example of a cybersecurity attack, to enlighten the user of their threat and magnitude.
   - The Security page also includes embedded links for the user to both report cybersecurity attacks/suspicious activity and links to software which can help to protect them.
+![Screenshot 2024-07-27 at 10 48 05](https://github.com/user-attachments/assets/4e24205b-c147-40a2-a79b-d6c3f27dbdb1)
+![Screenshot 2024-07-27 at 10 48 19](https://github.com/user-attachments/assets/bec636b7-4970-4841-bac2-124126958d5d)
+
  
 - **Features left to implement**
   - A sign-up for a weekly blog where users can stay up-to-date with geopolitical and economic factors affecting their investments.
