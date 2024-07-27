@@ -133,6 +133,7 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
 
 ## Code Example 
 How to implement a responsive navbar in CSS:
+     
      .navbar ul {
      list-style: none;
      display: flex; /*Aligns navigation items in a row*/
@@ -140,10 +141,11 @@ How to implement a responsive navbar in CSS:
      }
 
 How to evenly distribute spaces between images: 
-     .images-container {
-     justify content: space between /*Distributes space evenly between images*/
-     align items: center; /*Aligns images in center*/ 
-     }
+    
+    .images-container {
+    justify content: space between /*Distributes space evenly between images*/
+    align items: center; /*Aligns images in center*/ 
+    }
 
 ## Deployment 
 
