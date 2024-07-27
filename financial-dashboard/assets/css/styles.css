@@ -23,6 +23,13 @@ p {
     text-align: justify;
 }
 
+.full-width-image {
+    width: 100%;  /* Makes the image fill the entire width of its container */
+    height: auto;  /* Maintains the aspect ratio */
+    display: block;  /* Removes any extra space below the image */
+    margin-bottom: 20px;  /* Optional: adds some space below the image */
+}
+
 /* Top Bar Styles */
 .top-bar {
     background-color: #182841;  /* Blue background */
