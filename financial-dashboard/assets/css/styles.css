@@ -123,6 +123,13 @@ footer {
     bottom: 0;
 }
 
+/* Table Styles for Center Alignment */
+table {
+    margin: 0 auto; /* Center the table horizontally */
+    width: 80%; /* Optional: Adjust this to fit your design needs */
+    text-align: left; /* Aligns text inside the table to the left, table itself is centered */
+}
+
 /* Responsive Styles */
 @media (max-width: 600px) {
     .top-bar {
