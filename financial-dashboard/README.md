@@ -3,8 +3,7 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Technologies Used](#technologies-used)
-3. [Assets](#assets)
-4. [Pages](#pages)
+3. [Features](#features)
 5. [Setup Instructions](#setup-instructions)
 6. [Features](#features)
 7. [Testing](#testing)
@@ -13,22 +12,51 @@
 10. [Credits](#credits)
 11. [License](#license)
 
-## Introduction
-This project has been written by Kiran Taylor-Patel as a submission for Portfolio 1 (Code Institute: Diploma in Full Stack Development). 
+## Introduction: 
+
 This project is a financial dashboard website that provides key financial metrics, market trends, and secuirty information relevant to UK based investors. The purpose of this page is to serve as a blog/brief introductory to investing by outlining the key market indictaors that investors must monitor as well as the security threats posed by investing/use of online financial services. The finanical dashboard website also includes links to useful resources such as yahoo finance (for investment metrics) and action fraud (for reporting security threats).
+
+*Financial Dashboard is a site which focuses on linking both experienced and novice investors with the information and tools which will help them to remain risk adverse and make informed investment decisions.*
 
 ## Technologies Used
 - HTML5
 - CSS3
 - Hosted on GitHub Pages
 
-## Assets 
-- styles.css
+## Features 
+
+Financial Dashboard has an interactive landing page with a short "about us" description followed by an overview of its two subsequent pages "market" and "security". As well as navigation buttons on the page, Financial Dashboard also has a navigation bar featured on all three pages with the same destinations as the navigation buttons as well as a link back to the Home page (index.html). Although the website is catered for all level of investor, the market page provides information more relevant for the novice investor that wonders which indices are most important to their investment journey whilst the security page has universal applications to all levels of experience and also contains information on cybersecurity relevant to those who have little to no risk appetite for investment. 
+
+### Exisiting Features 
+- **Navigation Bar**
+  - Featured on all three pages, the navigation bar has links to the Home page, Market page, and Security page and is identical in each for easy navigation.
+  - The navigation bar is a fully resposnive design and changes size but remains in the top right corner depending on screen size.
+ 
+- **Website Logo**
+  - The Website Logo is featured on all pages in the top banner and serves the purpose of allowing users to see the site name on all three pages.
+ 
+- **Footer**
+  - The footer includes copyright information for Financial Dashboard.
+ 
+- **The Landing Page**
+  - The landing page (index.html) includes an AI generated image of stock market candlestick flow with the site name 'Financial Dashboard' as an overlay. Thsis overlay is also fully responsive and changes size subject to the device window being used.
+  - The landing page introduces the user to the website with an eye-catching design whilst using colours which make it clear that the purpose of the site is informative.
+ 
+- **Market**
+  - The Market page introduces the user to indices and metrics which are important to become familiar with when investing.
+  - The Market page also includes an embedded link to Yahoo Finance where users can monitor stock performance further.
+ 
+- **Security**
+  - The Security page enlightens the user to the security cybersecurity risks that, althugh are a threat to all computer users, are very commonly seen when investing and traversing websites that either request payments or give financial advice.
+  - The Security page contains an embedded youtube video outlining an example of a cybersecurity attack, to enlighten the user of their threat and magnitude.
+  - The Security page also includes embedded links for the user to both report cybersecurity attacks/suspicious activity and links to software which can help to protect them.
 
 ## Pages 
 - index.html (Home: Introduction and Overview)
 - market.html (Outline of Market Indices to Examine & Become Familiar with)
 - security.html (Information regarding Cybersecurity Risks Users are Vulnerable to when Investing)
+
+[IMAGES OF PAGES]
 
 ## Setup Instructions 
 Clone the repository to local machine:
@@ -55,8 +83,8 @@ Open the 'index.html' file in browser to view the project.
 - Initially, when deploying my project to GitHub Pages, I discovered the project was broken and had some issues with it loading due to an error with jekyll.
 - There was also an issue with the header not loading and the logo design in the top left corner overhanging on the tool bar.
 - I have fixed these bugs by altering the format in GitHub to fix the jekyll error & by styling the header, logo, and top-bar as follows:
-  ###
-  .images-container {
+  
+  '.images-container {
     display: flex;
     justify-content: space-between;  /* Distributes space evenly between the images */
     align-items: center;  /* Aligns images vertically in the center */
@@ -91,7 +119,7 @@ How to evenly distribute spaces between images:
 .images-container {
   justify content: space between /*Distributes space evenly between images*/
   align items: center; /*Aligns images in center*/ 
-}
+}'
 
 
 ## Contributing 
