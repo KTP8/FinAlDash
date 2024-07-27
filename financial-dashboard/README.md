@@ -7,12 +7,10 @@
 2. [Technologies Used](#technologies-used)
 3. [Features](#features)
 4. [Testing](#Testing)
-5. [Setup Instructions](#setup-instructions)
-7. [Testing](#testing)
-8. [Code Examples](#code-examples)
-9. [Contributing](#contributing)
-10. [Credits](#credits)
-11. [License](#license)
+5. [Code Example](#code-example)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+8. [Media](#media)
 
 ## Introduction: 
 
@@ -133,7 +131,7 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
 '}'
 
 
-## Code Examples 
+## Code Example 
 How to implement a responsive navbar in CSS:
 '.navbar ul {'
 'list-style: none;'
@@ -147,9 +145,18 @@ How to evenly distribute spaces between images:
   'align items: center;' /*Aligns images in center*/ 
 '}'
 
+## Deployment 
+
+**This site was deployed to GitHub pages. The steps to deploy are:**
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the Master Branch has been selected, the page will automatically refresh with a detailed ribbon display to indicate deployment was successful
+
+  THE LIVE LINK CAN BE FOUND HERE: https://8000-ktp8-finaldash-2iz1xkckre5.ws.codeinstitute-ide.net/index.html 
+
+
 
 ## Credits 
-- Kiran Taylor-Patel: Sole Developer/Project Owner
 - Coursera: html and CSS code course (used for taught methods not from code institute)
 - Google Search: used to help find the correct commands to push logo image into top corner
 - Youtube: used to find aid when writing navbar code and for embedded video
