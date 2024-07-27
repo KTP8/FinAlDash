@@ -5,7 +5,8 @@ financial services. The finanical dashboard website also includes links to usefu
 threats).
 
 This project has been written by Kiran Taylor-Patel as a submission for Portfolio 1 (Code Institute: Diploma in Full Stack Development) using the taught lessons for insights on code to write
-in conjuction with YouTube lessons and google searches on best way to write html and css functions that caused errors during iterative process. 
+in conjuction with YouTube lessons and google searches on best way to write html and css functions that caused errors during iterative process. (i.e., how to write HTML for top-bar and 
+logo container ; use of meta charset=UTF-8, as original code had characters not included in traditional character set ; how to overlay text onto header image).
 
 ## Pages 
 
