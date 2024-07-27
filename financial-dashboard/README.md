@@ -40,20 +40,20 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
   
  
 - **Website Logo**
-
+  - The Website Logo is featured on all pages in the top banner and serves the purpose of allowing users to see the site name on all three pages.
   ![Logo](https://github.com/user-attachments/assets/292b6a15-0b24-4439-8c7d-8c3400075783)
 
-  - The Website Logo is featured on all pages in the top banner and serves the purpose of allowing users to see the site name on all three pages.
- 
+  
 - **Footer**
   - The footer includes copyright information for Financial Dashboard.
+
  
 - **The Landing Page**
-
+ - The landing page (index.html) includes an AI generated image of stock market candlestick flow with the site name 'Financial Dashboard' as an overlay. Thsis overlay is also fully responsive and changes size subject to the device window being used.
+  - The landing page introduces the user to the website with an eye-catching design whilst using colours which make it clear that the purpose of the site is informative.
 ![Screenshot 2024-07-27 at 09 33 13](https://github.com/user-attachments/assets/a34380d4-e431-49ba-a46d-f2af117d864d)
 
-  - The landing page (index.html) includes an AI generated image of stock market candlestick flow with the site name 'Financial Dashboard' as an overlay. Thsis overlay is also fully responsive and changes size subject to the device window being used.
-  - The landing page introduces the user to the website with an eye-catching design whilst using colours which make it clear that the purpose of the site is informative.
+ 
  
 - **Market**
   - The Market page introduces the user to indices and metrics which are important to become familiar with when investing.
