@@ -41,6 +41,7 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
  
 - **Website Logo**
   - The Website Logo is featured on all pages in the top banner and serves the purpose of allowing users to see the site name on all three pages.
+    
   ![Logo](https://github.com/user-attachments/assets/292b6a15-0b24-4439-8c7d-8c3400075783)
 
   
