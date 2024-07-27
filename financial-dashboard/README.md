@@ -7,7 +7,7 @@
 4. [Pages](#pages)
 5. [Setup Instructions](#setup-instructions)
 6. [Features](#features)
-7. [Usage Examples](#usage-examples)
+7. [Testing](#testing)
 8. [Code Examples](#code-examples)
 9. [Contributing](#contributing)
 10. [Credits](#credits)
@@ -45,9 +45,39 @@ Open the 'index.html' file in browser to view the project.
 - Security Risk Assesments: Up-to-date information on potential security threats and vulnerabilities.
 - Responsive Design: Fully responsive web design that adjusts to various devices and screen sizes.
 
-## Usage Examples 
-- Navigation Links: Use the navigation bar or buttons found on index.html to switch between different sections.
-- Embedded media: Find embedded youtube video on security.html page.
+## Testing  
+- I have tested that this page works on the following browsers: Chrome, Safari, Firefox.
+- I can confirm that the project is responsive and functions well whilst maintaining aesthetics on all standard screen sizes using lighthouse on the devtools device toolbar.
+- I have confirmed that the navigation, about us, graphics, and site function are all easy to understand and readable, and have ensured that it is easy to watch the embedded video.
+- I have confrimed that all interactive links and embedded media (youtube video) works.
+
+## Bugs
+- Initially, when deploying my project to GitHub Pages, I discovered the project was broken and had some issues with it loading due to an error with jekyll.
+- There was also an issue with the header not loading and the logo design in the top left corner overhanging on the tool bar.
+- I have fixed these bugs by altering the format in GitHub to fix the jekyll error & by styling the header, logo, and top-bar as follows:
+  ###
+  .images-container {
+    display: flex;
+    justify-content: space-between;  /* Distributes space evenly between the images */
+    align-items: center;  /* Aligns images vertically in the center */
+}
+
+.inline-image {
+    width: 23%;  /* Adjusts width to fit 4 images within the container */
+    height: auto;  /* Maintains aspect ratio */
+}
+
+/* Top Bar Styles */
+.top-bar {
+    background-color: #182841;  /* Blue background */
+    width: 100%;
+    height: 50px;  /* Adjust height as needed */
+    display: flex;
+    align-items: center;  /* Center the logo and navigation vertically */
+    justify-content: space-between; /* Space between logo and navigation */
+    padding: 0 10px;  /* Padding for some spacing from the edges */
+}
+
 
 ## Code Examples 
 How to implement a responsive navbar in CSS:
