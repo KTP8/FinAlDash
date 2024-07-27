@@ -23,9 +23,9 @@ p {
     text-align: justify;
 }
 
-.full-width-image {
+.adjusted-width-image {
     width: 70%;  /* Makes the image fill the entire width of its container */
-    align-items: center;
+    margin: 0 auto;
     height: auto;  /* Maintains the aspect ratio */
     display: block;  /* Removes any extra space below the image */
     margin-bottom: 20px;  /* Optional: adds some space below the image */
