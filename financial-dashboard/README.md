@@ -4,8 +4,8 @@
 1. [Introduction](#introduction)
 2. [Technologies Used](#technologies-used)
 3. [Features](#features)
+4. [Testing](#Testing)
 5. [Setup Instructions](#setup-instructions)
-6. [Features](#features)
 7. [Testing](#testing)
 8. [Code Examples](#code-examples)
 9. [Contributing](#contributing)
@@ -14,7 +14,7 @@
 
 ## Introduction: 
 
-This project is a financial dashboard website that provides key financial metrics, market trends, and secuirty information relevant to UK based investors. The purpose of this page is to serve as a blog/brief introductory to investing by outlining the key market indictaors that investors must monitor as well as the security threats posed by investing/use of online financial services. The finanical dashboard website also includes links to useful resources such as yahoo finance (for investment metrics) and action fraud (for reporting security threats).
+This project is a financial dashboard website that provides key financial metrics, market trends, and secuirty information to provide substance for UK based investors to conduct personal risk assesments. The purpose of this page is to serve as a blog/brief introductory to investing by outlining the key market indictaors that investors must monitor as well as the security threats posed by investing/use of online financial services. The finanical dashboard website also includes links to useful resources such as yahoo finance (for investment metrics) and action fraud (for reporting security threats).
 
 *Financial Dashboard is a site which focuses on linking both experienced and novice investors with the information and tools which will help them to remain risk adverse and make informed investment decisions.*
 
@@ -50,80 +50,65 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
   - The Security page enlightens the user to the security cybersecurity risks that, althugh are a threat to all computer users, are very commonly seen when investing and traversing websites that either request payments or give financial advice.
   - The Security page contains an embedded youtube video outlining an example of a cybersecurity attack, to enlighten the user of their threat and magnitude.
   - The Security page also includes embedded links for the user to both report cybersecurity attacks/suspicious activity and links to software which can help to protect them.
-
-## Pages 
-- index.html (Home: Introduction and Overview)
-- market.html (Outline of Market Indices to Examine & Become Familiar with)
-- security.html (Information regarding Cybersecurity Risks Users are Vulnerable to when Investing)
-
-[IMAGES OF PAGES]
-
-## Setup Instructions 
-Clone the repository to local machine:
-'''bash
-git clone https://github.com/ktp8/FinAlDash/financial-dashboard.git
-
-Navigate to project directory:
-cd financil-dashboard 
-
-Open the 'index.html' file in browser to view the project.
-
-## Features 
-- Market Insights: Detailed analytics and trends useful to investing in the UK market.
-- Security Risk Assesments: Up-to-date information on potential security threats and vulnerabilities.
-- Responsive Design: Fully responsive web design that adjusts to various devices and screen sizes.
+ 
+- **Features left to implement**
+  - A sign-up for a weekly blog where users can stay up-to-date with geopolitical and economic factors affecting their investments.
 
 ## Testing  
 - I have tested that this page works on the following browsers: Chrome, Safari, Firefox.
 - I can confirm that the project is responsive and functions well whilst maintaining aesthetics on all standard screen sizes using lighthouse on the devtools device toolbar.
 - I have confirmed that the navigation, about us, graphics, and site function are all easy to understand and readable, and have ensured that it is easy to watch the embedded video.
 - I have confrimed that all interactive links and embedded media (youtube video) works.
+- Financial Dashboard has been tested on every page using lighthouse for both desktop and mobile size and recieved the following rankings:
 
-## Bugs
+### Validator Testing 
+- HTML
+  - No errors were returned when passing through the official W3C validator.
+- CSS
+  - No errors were returned when passing through the official (Jigsaw) validator.
+  
+### Bugs
 - Initially, when deploying my project to GitHub Pages, I discovered the project was broken and had some issues with it loading due to an error with jekyll.
 - There was also an issue with the header not loading and the logo design in the top left corner overhanging on the tool bar.
 - I have fixed these bugs by altering the format in GitHub to fix the jekyll error & by styling the header, logo, and top-bar as follows:
   
-  '.images-container {
-    display: flex;
-    justify-content: space-between;  /* Distributes space evenly between the images */
-    align-items: center;  /* Aligns images vertically in the center */
-}
+  '.images-container {'
+   ' display: flex;'
+    'justify-content: space-between;'  /* Distributes space evenly between the images */
+    'align-items: center;'  /* Aligns images vertically in the center */
+'}'
 
-.inline-image {
-    width: 23%;  /* Adjusts width to fit 4 images within the container */
-    height: auto;  /* Maintains aspect ratio */
-}
+'.inline-image {'
+    'width: 23%;'  /* Adjusts width to fit 4 images within the container */
+    'height: auto;'  /* Maintains aspect ratio */
+'}'
 
-/* Top Bar Styles */
-.top-bar {
-    background-color: #182841;  /* Blue background */
-    width: 100%;
-    height: 50px;  /* Adjust height as needed */
-    display: flex;
-    align-items: center;  /* Center the logo and navigation vertically */
-    justify-content: space-between; /* Space between logo and navigation */
-    padding: 0 10px;  /* Padding for some spacing from the edges */
-}
+/*Top Bar Styles */
+'.top-bar {'
+    'background-color: #182841;'  /* Blue background */
+    'width: 100%;'
+    'height: 50px;  /* Adjust height as needed */
+    'display: flex;'
+   ' align-items: center;  /* Center the logo and navigation vertically */
+    'justify-content: space-between; /* Space between logo and navigation */
+    'padding: 0 10px;  /* Padding for some spacing from the edges */
+'}'
 
 
 ## Code Examples 
 How to implement a responsive navbar in CSS:
-.navbar ul {
-list-style: none;
-display: flex; /*Aligns navigation items in a row*/
-justify-contnet: flex-end; /*Aligns navigation items to the right*/
-}
+'.navbar ul {'
+'list-style: none;'
+'display: flex;' /*Aligns navigation items in a row*/
+'justify-contnet:' flex-end; /*Aligns navigation items to the right*/
+'}'
 
 How to evenly distribute spaces between images: 
-.images-container {
-  justify content: space between /*Distributes space evenly between images*/
-  align items: center; /*Aligns images in center*/ 
-}'
+'.images-container {'
+  'justify content: space between' /*Distributes space evenly between images*/
+  'align items: center;' /*Aligns images in center*/ 
+'}'
 
-
-## Contributing 
-Contributions welcome - for major changes please first open an issue to discuss changes 
 
 ## Credits 
 - Kiran Taylor-Patel: Sole Developer/Project Owner
@@ -132,12 +117,10 @@ Contributions welcome - for major changes please first open an issue to discuss 
 - Youtube: used to find aid when writing navbar code and for embedded video
 - ChatGPT: used in consolidating written elements from data collected by Project Owner (to check comprehension) and to alter code for 'head' element with reminder to include meta charset = UTF-8
 - Imgur: used to generate image urls
-- Pixabay: used for copyright free AI generated images
 - Yahoo Finance: used for data included on 'market.html'
+
+
+## Media 
+- Pixabay: used for copyright free AI generated images
+- Google finance: used for charts
 - SciShow: creator of embeded video
-
-##License
-
-This project is licensed under the Code Academy license.
-
-##Images of Finished Project:
