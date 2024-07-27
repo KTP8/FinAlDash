@@ -14,6 +14,7 @@
 11. [License](#license)
 
 ## Introduction
+This project has been written by Kiran Taylor-Patel as a submission for Portfolio 1 (Code Institute: Diploma in Full Stack Development). 
 This project is a financial dashboard website that provides key financial metrics, market trends, and secuirty information relevant to UK based investors. The purpose of this page is to serve as a blog/brief introductory to investing by outlining the key market indictaors that investors must monitor as well as the security threats posed by investing/use of online financial services. The finanical dashboard website also includes links to useful resources such as yahoo finance (for investment metrics) and action fraud (for reporting security threats).
 
 ## Technologies Used
@@ -51,9 +52,9 @@ Open the 'index.html' file in browser to view the project.
 ## Code Examples 
 How to implement a responsive navbar in CSS:
 .navbar ul {
-  list-style: none;
-  display: flex; /*Aligns navigation items in a row*/
-  justify-contnet: flex-end; /*Aligns navigation items to the right*/
+list-style: none;
+display: flex; /*Aligns navigation items in a row*/
+justify-contnet: flex-end; /*Aligns navigation items to the right*/
 }
 
 How to evenly distribute spaces between images: 
@@ -62,13 +63,20 @@ How to evenly distribute spaces between images:
   align items: center; /*Aligns images in center*/ 
 }
 
-This project has been written by Kiran Taylor-Patel as a submission for Portfolio 1 (Code Institute: Diploma in Full Stack Development) using the taught lessons for insights on code to write in conjuction with YouTube lessons, google searches and previously completed coursera course on best way to write html and css functions that caused errors during iterative process. (i.e., how to write HTML for top-bar and logo container ; use of meta charset=UTF-8, as original code had characters not included in traditional character set ; how to overlay text onto header image).
 
+## Contributing 
+Contributions welcome - for major changes please first open an issue to discuss changes 
 
-
-##Setup
-
-To set up/open this project, written by Kiran Taylor-Patel, clone the repository and open the 'index.html' file in browser.
+## Credits 
+- Kiran Taylor-Patel: Sole Developer/Project Owner
+- Coursera: html and CSS code course (used for taught methods not from code institute)
+- Google Search: used to help find the correct commands to push logo image into top corner
+- Youtube: used to find aid when writing navbar code and for embedded video
+- ChatGPT: used in consolidating written elements from data collected by Project Owner (to check comprehension) and to alter code for 'head' element with reminder to include meta charset = UTF-8
+- Imgur: used to generate image urls
+- Pixabay: used for copyright free AI generated images
+- Yahoo Finance: used for data included on 'market.html'
+- SciShow: creator of embeded video
 
 ##License
 
