@@ -109,41 +109,41 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
 - I have fixed these bugs by altering the format in GitHub to fix the jekyll error & by styling the header, logo, and top-bar as follows:
 
       .images-container {
-      display: flex;'
-    'justify-content: space-between;'  /* Distributes space evenly between the images */
-    'align-items: center;'  /* Aligns images vertically in the center */
-'}'
+      display: flex;
+      justify-content: space-between;  /* Distributes space evenly between the images */
+      align-items: center;  /* Aligns images vertically in the center */
+      }
 
-'.inline-image {'
-    'width: 23%;'  /* Adjusts width to fit 4 images within the container */
-    'height: auto;'  /* Maintains aspect ratio */
-'}'
+     .inline-image {
+     width: 23%;  /* Adjusts width to fit 4 images within the container */
+     height: auto;  /* Maintains aspect ratio */
+     }
 
-/*Top Bar Styles */
-'.top-bar {'
-    'background-color: #182841;'  /* Blue background */
-    'width: 100%;'
-    'height: 50px;  /* Adjust height as needed */
-    'display: flex;'
-   ' align-items: center;  /* Center the logo and navigation vertically */
-    'justify-content: space-between; /* Space between logo and navigation */
-    'padding: 0 10px;  /* Padding for some spacing from the edges */
-'}'
+     /*Top Bar Styles */
+     .top-bar {
+     background-color: #182841;  /* Blue background */
+     width: 100%;
+     height: 50px;  /* Adjust height as needed */
+     display: flex;
+     align-items: center;  /* Center the logo and navigation vertically */
+     justify-content: space-between; /* Space between logo and navigation */
+     padding: 0 10px;  /* Padding for some spacing from the edges */
+     }
 
 
 ## Code Example 
 How to implement a responsive navbar in CSS:
-'.navbar ul {'
-'list-style: none;'
-'display: flex;' /*Aligns navigation items in a row*/
-'justify-contnet:' flex-end; /*Aligns navigation items to the right*/
-'}'
+     .navbar ul {
+     list-style: none;
+     display: flex; /*Aligns navigation items in a row*/
+     justify-contnet: flex-end; /*Aligns navigation items to the right*/
+     }
 
 How to evenly distribute spaces between images: 
-'.images-container {'
-  'justify content: space between' /*Distributes space evenly between images*/
-  'align items: center;' /*Aligns images in center*/ 
-'}'
+     .images-container {
+     justify content: space between /*Distributes space evenly between images*/
+     align items: center; /*Aligns images in center*/ 
+     }
 
 ## Deployment 
 
