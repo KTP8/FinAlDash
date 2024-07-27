@@ -48,14 +48,25 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
   - The footer includes copyright information for Financial Dashboard.
  
 - **The Landing Page**
+
+![Screenshot 2024-07-27 at 09 33 13](https://github.com/user-attachments/assets/a34380d4-e431-49ba-a46d-f2af117d864d)
+
   - The landing page (index.html) includes an AI generated image of stock market candlestick flow with the site name 'Financial Dashboard' as an overlay. Thsis overlay is also fully responsive and changes size subject to the device window being used.
   - The landing page introduces the user to the website with an eye-catching design whilst using colours which make it clear that the purpose of the site is informative.
  
 - **Market**
+
+![Screenshot 2024-07-27 at 09 33 28](https://github.com/user-attachments/assets/7950717c-6d40-4679-8f5b-d1d16377204c)
+![Screenshot 2024-07-27 at 09 33 42](https://github.com/user-attachments/assets/3e97c609-8823-4b9e-bea6-e02d481ee8d5)
+
   - The Market page introduces the user to indices and metrics which are important to become familiar with when investing.
   - The Market page also includes an embedded link to Yahoo Finance where users can monitor stock performance further.
  
 - **Security**
+
+![Screenshot 2024-07-27 at 10 48 05](https://github.com/user-attachments/assets/4e24205b-c147-40a2-a79b-d6c3f27dbdb1)
+![Screenshot 2024-07-27 at 10 48 19](https://github.com/user-attachments/assets/bec636b7-4970-4841-bac2-124126958d5d)
+
   - The Security page enlightens the user to the security cybersecurity risks that, althugh are a threat to all computer users, are very commonly seen when investing and traversing websites that either request payments or give financial advice.
   - The Security page contains an embedded youtube video outlining an example of a cybersecurity attack, to enlighten the user of their threat and magnitude.
   - The Security page also includes embedded links for the user to both report cybersecurity attacks/suspicious activity and links to software which can help to protect them.
@@ -75,7 +86,12 @@ Financial Dashboard has an interactive landing page with a short "about us" desc
   - No errors were returned when passing through the official W3C validator.
 - CSS
   - No errors were returned when passing through the official (Jigsaw) validator.
-  
+ 
+### Responsiveness
+- The site was tested using lighthouse to assess its responsivness and useability, earning 100 for useability on desktop and 88 on mobile display:
+
+![Screenshot 2024-07-27 at 09 36 42](https://github.com/user-attachments/assets/02880530-82f4-4b17-b740-e0f147f51c62)
+
 ### Bugs
 - Initially, when deploying my project to GitHub Pages, I discovered the project was broken and had some issues with it loading due to an error with jekyll.
 - There was also an issue with the header not loading and the logo design in the top left corner overhanging on the tool bar.
